@@ -68,6 +68,7 @@ Planes = inicio();
 
 // Acabandose los planes:
 printf("No quedan mas planes telefonicos disponibles para la venta.\n\n");
+printf("Proximamente tendremos mas planes disponibles y variedad.\n\n");
 estadistica(); //Muestra las estadisticas de los planes contratados.
 
 return 0;

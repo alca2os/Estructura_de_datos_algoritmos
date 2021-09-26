@@ -12,9 +12,9 @@ float ningunPlan=0;
 char nombre[30];
 char apellido[30];
 char rut[15];
-char celular[14];
-char email[50];
-char direccion[50];
+char celular[15];
+char email[60];
+char direccion[60];
 
 // Variables auxiliares
 int planes=0; //Cantidad de planes disponibles.
@@ -90,14 +90,14 @@ void tomaDeDatos(int i, int edadIngresada){
 registrar = fopen("datos.txt", "a+"); // Creación de archivo para el guardado de datos del cliente.
 
 printf("A continuacion se van a tomar sus datos para la contratacion del plan:\n\n"); //Pedido de datos del cliente.
-printf("Indique su nombre y apellido\n");
+printf("Indique su nombre y apellido (Con un espacio entre el nombre y el apellido)\n");
 scanf("%s %s", &nombre, &apellido);
 fprintf(registrar, nombre);
 fprintf(registrar, " ");
 fprintf(registrar, apellido);
 fprintf(registrar, "|");
 
-printf("Indique su RUT\n");
+printf("Indique su RUT (Sin puntos ni guion\n");
 scanf("%s", &rut);
 fprintf(registrar, rut);
 fprintf(registrar, "|");

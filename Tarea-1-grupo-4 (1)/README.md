@@ -37,4 +37,4 @@ Desarrollado en el departamento de Ingerniería Eléctrica de la Universidad de 
    * Los datos se guardan en un archivo "datos.txt"
    * Manejo de archivos para estadisticas de los planes contratados
    * Las estadisticas se guardan en un archivo "estadisticas.txt"
-   * VERSION TERMINADA Y DECLARADA COMO ESTABLE
+   * Version terminada y declarada como estable
